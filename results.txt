@@ -1,0 +1,27 @@
+Analytical first moment: mu_i = A^-1 w_i 
+
+Numerical first moment <v1> = 0.0895522 
+Analytical first moment <v1> = 0.0895522
+Numerical first moment <v2> = 0.104478 
+Analytical first moment <v2> = 0.104478
+Numerical first moment <v3> = 0.432836 
+Analytical first moment <v3> = 0.432836 
+
+Analytical second moment:  A-1_ij + mu_i mu_j 
+
+Numerical second moment <v1v2> = -0.124972
+Analytical second moment <v1v2> = -0.124972
+Numerical second moment <v1v3> = 0.0536868
+Analytical second moment <v1v3> = 0.0536868
+Numerical second moment <v2v3> = -0.104032
+Analytical second moment <v2v3> = -0.104032
+
+Higher order moments, (mu_i + x_i)^a (mu_j + x_j)^b (mu_k + x_k)^c 
+Numerical third moment <v1^2v2> = 0.00952577
+Analytical third moment <v1^2v2> = 0.00365072 
+Numerical third moment <v2v3^2> = -0.0846813
+Analytical third moment <v2v3^2> = -0.0846813 
+Numerical fourth moment <v1^2v2^2> = 0.144919
+Analytical fourth moment <v1^2v2^2> = 0.144919
+Numerical fourth moment <v2^2v3^2> = 0.168498
+Analytical fourth moment <v2^2v3^2> = 0.168498
